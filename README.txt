@@ -1,4 +1,4 @@
-Username i password su u klasi DbConnection.java
+Username + password in class DbConnection.java
 
-N-tio za Amazon server.
-N-tio-local za lokalni.
+N-tio for Amazon server.
+N-tio-local for local.
