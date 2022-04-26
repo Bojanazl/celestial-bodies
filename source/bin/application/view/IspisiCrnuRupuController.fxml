@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView fx:id="tabela1" prefHeight="400.0" prefWidth="650.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Naziv crne rupe" />
+          <TableColumn prefWidth="75.0" text="Glavni poluprečnik" />
+            <TableColumn prefWidth="75.0" text="Ekvatorijalni polprečnik" />
+            <TableColumn prefWidth="75.0" text="Površina" />
+            <TableColumn prefWidth="75.0" text="Zapremina" />
+            <TableColumn prefWidth="75.0" text="Masa" />
+            <TableColumn prefWidth="75.0" text="Površinska gravitacija" />
+            <TableColumn prefWidth="75.0" text="Brzina oslobađanja" />
+            <TableColumn prefWidth="75.0" text="Rotacioni period" />
+            <TableColumn prefWidth="75.0" text="Albedo" />
+            <TableColumn prefWidth="75.0" text="Obim" />
+            <TableColumn prefWidth="75.0" text="Rektascenzjia (aproks)" />
+            <TableColumn prefWidth="75.0" text="Deklinacija (aproks)" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

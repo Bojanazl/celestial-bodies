@@ -1,0 +1,29 @@
+.toggle-button-crnarupa { 
+	
+				-fx-background-radius: 20em; 
+                -fx-min-width:300px;
+                -fx-background-color: transparent;
+                -fx-background-image: url("/application/items/CrnaRupa.png");
+                -fx-min-height: 120px; 
+                -fx-max-width: 300px; 
+                -fx-max-height: 120px;
+                -fx-background-position:center;
+				-fx-background-repeat: no-repeat;
+
+                
+}
+
+.button:hover {
+    -fx-background-image: url('/application/items/CrnaRupaHover.png');
+    -fx-background-position:center;
+	-fx-background-repeat: no-repeat;     
+}
+
+
+.toggle-button-crnarupa:pressed {
+-fx-background-image: url("/application/items/CrnaRupaClicked.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+
+}
+

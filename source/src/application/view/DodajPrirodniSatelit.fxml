@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="750.0" maxWidth="900.0" minHeight="750.0" minWidth="900.0" prefHeight="750.0" prefWidth="900.0" styleClass="root2" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.DodajPrirodniSatelitController">
+   <center>
+      <Pane maxHeight="750.0" maxWidth="900.0" minHeight="750.0" minWidth="900.0" prefHeight="750.0" prefWidth="900.0" style="-fx-border-color: #ff9400;" styleClass="root8" stylesheets="@../application.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="680.0" layoutY="3.0" prefHeight="231.0" prefWidth="230.0" scaleShape="false">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#goDefinicije" styleClass="toggle-button-aaa" stylesheets="@../minimeni.css" text="Pogledaj definicije" textAlignment="CENTER" textFill="#ff9400" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button maxWidth="129.0" mnemonicParsing="false" onAction="#goIspisiSatelite" prefHeight="100.0" prefWidth="129.0" styleClass="toggle-button-aaa" stylesheets="@../minimeni.css" text="Pregledaj sve satelite" textAlignment="CENTER" textFill="#ff9400" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <ScrollPane layoutX="8.0" layoutY="6.0" maxHeight="750.0" maxWidth="690.0" minHeight="736.0" minWidth="680.0" prefHeight="736.0" prefWidth="680.0" styleClass="root8" stylesheets="@../scrollpane.css">
+               <content>
+                  <GridPane alignment="CENTER" hgap="20.0" prefHeight="860.0" prefWidth="683.0" styleClass="root8" stylesheets="@../application.css" vgap="10.0">
+                     <columnConstraints>
+                        <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="184.199951171875" minWidth="10.0" prefWidth="168.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.60003662109375" minWidth="10.0" prefWidth="270.60003662109375" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Naziv nebeskog tijela" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="ID roditelja" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Vrsta nebeskog tijela" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Glavni poluprečnik" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Ekvatorijalni poluprečnik" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Površina" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Zapremina" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Masa" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Gravitaciona konstanta" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Brzina oslobađanja" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Rotacioni period" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Obim" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="12">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="ePoluprecnik" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                        <TextField fx:id="gPoluprecnik" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <TextField fx:id="povrsina" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                        <TextField fx:id="zapremina" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                        <TextField fx:id="masa" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                        <TextField fx:id="gKonstanta" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                        <TextField fx:id="brzinaOslobadjanja" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                        <TextField fx:id="rPeriod" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                        <TextField fx:id="obim" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="20">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#handleButtonAction" prefWidth="112.0" styleClass="root3" stylesheets="@../application.css" text="Potvrdi" textAlignment="CENTER" textFill="#4b77b5" />
+                           </children>
+                        </HBox>
+                        <TextField fx:id="Naziv" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" />
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Ekscentritet" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="13">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Orbitalni period" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="14">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Brzina" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="15">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Anomalija" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="16">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="ekscentritet" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+                        <TextField fx:id="oPeriod" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="14" />
+                        <TextField fx:id="brzina" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+                        <TextField fx:id="anomalija" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="16" />
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Albedo" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="11">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Inklinacija" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="17">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Uzlazni čvor" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="18">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Label styleClass="root5" stylesheets="@../application.css" text="Perihel" textAlignment="CENTER" textFill="#2f628c" GridPane.columnIndex="2" GridPane.rowIndex="19">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="albedo" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+                        <TextField fx:id="inklinacija" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="17" />
+                        <TextField fx:id="uCvor" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="18" />
+                        <TextField fx:id="perihel" styleClass="root4" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="19" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="20" />
+                        <ComboBox fx:id="idRoditelja" prefWidth="112.0" styleClass="root3" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="80.0" />
+                           </GridPane.margin>
+                        </ComboBox>
+                        <ComboBox fx:id="vrsta" prefWidth="112.0" styleClass="root3" stylesheets="@../application.css" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="80.0" />
+                           </GridPane.margin>
+                        </ComboBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="-200.0" top="20.0" />
+                     </padding>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

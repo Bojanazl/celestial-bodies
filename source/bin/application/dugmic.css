@@ -1,0 +1,37 @@
+
+.toggle-button { -fx-background-radius: 50em; 
+                -fx-min-width:310px;
+                -fx-background-color: transparent;
+                -fx-background-image: url("/application/items/SunceDeafult.png");
+                -fx-min-height: 310px; 
+                -fx-max-width: 295px; 
+                -fx-max-height: 295px;
+                -fx-background-position:center;
+				-fx-background-repeat: no-repeat;   
+                
+}
+
+
+.button:hover {
+    -fx-background-image: url('/application/items/SunceHover.png');
+    -fx-background-position:center;
+	-fx-background-repeat: no-repeat;   
+       
+}
+
+
+.toggle-button:pressed {
+  -fx-background-image: url("/application/items/SunceClicked.png");
+  -fx-background-position:center;
+-fx-background-repeat: no-repeat;   
+   
+}
+
+/* 
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+*/

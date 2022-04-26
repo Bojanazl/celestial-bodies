@@ -1,0 +1,32 @@
+.ntio { 
+	
+				-fx-background-radius: 20em; 
+                -fx-min-width:75px;
+                -fx-background-color: transparent;
+                -fx-background-image: url("/application/items/Strelica.png");
+                -fx-min-height: 75px; 
+                -fx-max-width: 75px; 
+                -fx-max-height: 75px;
+             -fx-background-position: left top, center;
+				-fx-background-repeat: no-repeat;
+				-fx-background-size: 100% 100%;
+
+                
+}
+
+.ntio:hover {
+    -fx-background-image: url('/application/items/NazadHover.png');
+    -fx-background-size: 100% 100%;
+       
+}
+
+
+.ntio:pressed {
+-fx-background-image: url("/application/items/StrelicaClicked.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+-fx-background-size: 100% 100%;
+
+}
+
+

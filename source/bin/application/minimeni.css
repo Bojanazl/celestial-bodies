@@ -1,0 +1,30 @@
+.toggle-button-aaa { 
+	
+				-fx-background-radius: 5em; 
+                -fx-min-width:200px;
+                -fx-background-color: transparent;
+                -fx-background-image: url("/application/items/ADD.png");
+                -fx-min-height: 100px; 
+                -fx-max-width: 200px; 
+                -fx-max-height: 100px;
+             	-fx-background-position: center;
+				-fx-background-repeat: no-repeat;
+
+                
+}
+
+.button:hover {
+    -fx-background-image: url('/application/items/AHH.png');
+    -fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+       
+}
+
+
+.toggle-button-mjesec:pressed {
+-fx-background-image: url("/application/items/ACC.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+
+}
+

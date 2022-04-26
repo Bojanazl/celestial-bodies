@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="600.0" maxWidth="750.0" minHeight="600.0" minWidth="750.0" prefHeight="600.0" prefWidth="750.0" styleClass="root2" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" styleClass="root2" stylesheets="@../application.css" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

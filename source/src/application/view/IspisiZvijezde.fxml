@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.IspisZvijezdeController">
+   <center>
+      <TableView fx:id="tabelaZvijezda" prefHeight="200.0" prefWidth="200.0" stylesheets="@../tabela.css" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="Column_ime" prefWidth="75.0" text="Ime zvijezde" />
+          <TableColumn fx:id="Column_spektral" prefWidth="75.0" text="Spektralna klasifikacija" />
+            <TableColumn fx:id="Column_zsistem" prefWidth="75.0" text="Zvjezani sistem" />
+            <TableColumn fx:id="Column_zjato" prefWidth="75.0" text="Zvjezdano jato" />
+            <TableColumn fx:id="Column_galaksija" prefWidth="75.0" text="Galaksija" />
+            <TableColumn fx:id="Column_gjato" prefWidth="75.0" text="Galakticko jato" />
+            <TableColumn fx:id="Column_sjato" prefWidth="75.0" text="Superjato" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+</BorderPane>

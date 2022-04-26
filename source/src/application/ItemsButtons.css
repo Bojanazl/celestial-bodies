@@ -1,0 +1,54 @@
+.buttonDarkBlue {
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #58ACFA 20%, #191d22 100%),
+        linear-gradient(#170B3B,  #0A0A2A),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(#58ACFA,#58ACFA);
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+.dark-blue Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+.buttonDarkBlue:hover {
+	-fx-background-color: 
+        #FFBF00,
+        linear-gradient(#38424b 0%, #58ACFA 20%, #191d22 100%),
+        linear-gradient( #FFBF00,  #0A0A2A),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.0), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-border-color: #FFBF00;
+    -fx-border-radius: 0;
+    -fx-border-width: 1.0;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(#170B3B, #0A0A2A);
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+.buttonDarkBlue:pressed {
+-fx-background-color: 
+        #FFBF00,
+        linear-gradient(#38424b 0%, #58ACFA 20%, #191d22 100%),
+        linear-gradient( #FFBF00, #DF7401),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.0), rgba(255,255,255,0));
+   -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(#170B3B, #0A0A2A);
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+    }
+    

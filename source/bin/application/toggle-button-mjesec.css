@@ -1,0 +1,34 @@
+.toggle-button-mjesec { 
+	
+				-fx-background-radius: 5em; 
+                -fx-min-width:100px;
+                -fx-background-color: transparent;
+                -fx-background-image: url("/application/items/Mjesec.png");
+                -fx-min-height: 100px; 
+                -fx-max-width: 100px; 
+                -fx-max-height: 100px;
+             	-fx-background-position: center;
+				-fx-background-repeat: no-repeat;
+				-fx-background-size: 100% 100%
+
+                
+}
+
+.button:hover {
+    -fx-background-image: url('/application/items/MjesecHover.png');
+    -fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 100% 100%
+       
+}
+
+
+.toggle-button-mjesec:pressed {
+-fx-background-image: url("/application/items/MjesecClicked.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+-fx-background-size: 100% 100%
+
+}
+
+
